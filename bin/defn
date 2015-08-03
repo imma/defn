@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export MEH=1
+
+function main {
+  ps axu | head
+  echo "$@"
+  echo "$MEH"
+}
+
+source sub "$0" "$@"

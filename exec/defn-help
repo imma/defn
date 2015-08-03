@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function main {
+  echo "${0##*/} ..."
+}
+
+source sub "$0" "$@"
