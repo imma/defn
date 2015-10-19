@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function main {
+  grep -InR 'TODO' $(git ls-files) | perl -pe 's{:(\d+):}{: \1: }' | talign 2
+}
+
+main "$@"
