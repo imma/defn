@@ -3,7 +3,7 @@
 # inspired by http://jezenthomas.com/using-git-to-manage-todos/
 
 function main {
-  grep -InR 'TODO' $(git ls-files) | perl -pe 's{:(\d+):}{: \1: }' | talign 2
+  grep -InR '[T]ODO' $(git ls-files) | perl -pe 's{:(\d+):}{: \1: }' | talign 2
 }
 
 main "$@"
