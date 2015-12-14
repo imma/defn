@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-  git status -sb
+  git status -sb --ignore-submodules=untracked
 }
 
 source sub "$0" "$@"
