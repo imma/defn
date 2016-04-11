@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
 function profile {
-  local shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
-  PATH="$shome/bin:$PATH"
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  PATH="$shome/bin:$shome/exec:$PATH"
+
+  source "$shome/script/rc"
 }
 
 profile
