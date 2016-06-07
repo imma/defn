@@ -1,5 +1,1 @@
-Setup
-=====
-
-For bash, source `script/profile` to expose the utilities in project `defn`.
-Requires the `defn/app` project installed and sourced.
+Visit http://defn.sh/defn/ or open `docs/index.html`
