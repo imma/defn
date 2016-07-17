@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-  exec vi "$(which $1 2>&- || true)"
+  exec vim "$(which $1 2>&- || true)"
 }
 
 source sub "$0" "$@"
