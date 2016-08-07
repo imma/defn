@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
+function pt {
+  export nm_user="${USER:-${LOGNAME}}"
+  proctree | egrep -v ' /(Applications|System|usr/sbin|usr/libexec)' | grep " ${nm_user} " | perl -pe 's{ $ENV{"nm_user"}}{ }; s{^(.*?) (\d+) (.*)$}{$1 $3}' | cut -b1-$COLUMNS
+}
+
 function _defn_profile {
   local shome="${_defn_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$PATH"
-
-  source "$shome/script/rc"
 }
 
 _defn_profile
