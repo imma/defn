@@ -1,7 +1,6 @@
 {
   "require": [
     "talign",
-    "junas",
     "cue"
   ]
 }
