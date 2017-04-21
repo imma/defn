@@ -1,6 +1,5 @@
 {
   "require": [
-    "talign",
-    "cue"
+    "talign"
   ]
 }
