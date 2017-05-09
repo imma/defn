@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function pt {
+function ptt {
   export nm_user="${USER:-${LOGNAME}}"
   local tmp_pt="$(mktemp -t XXXXXX)"
   proctree > "$tmp_pt"
