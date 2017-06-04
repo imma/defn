@@ -9,7 +9,7 @@ function ptt {
 }
 
 function _defn_profile {
-  local shome="${_defn_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
+  local shome="${_defn_home:="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   PATH="$shome/bin:$PATH"
 }
 
