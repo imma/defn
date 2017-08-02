@@ -1,0 +1,9 @@
+DEPENDENCIES
+  iamdefn
+    path: .
+    metadata: true
+
+GRAPH
+  defn (0.1.0)
+  iamdefn (0.1.0)
+    defn (>= 0.0.0)
