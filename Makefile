@@ -1,8 +1,8 @@
 all: style
 
 style:
-	foodcritic .
-	cookstyle .
+	foodcritic cookbooks
+	cookstyle cookbooks
 
 paranoid:
 	kitchen test

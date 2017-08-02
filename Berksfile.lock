@@ -1,5 +1,5 @@
 DEPENDENCIES
-  iamdefn
+  meh
     path: .
     metadata: true
 
@@ -7,3 +7,5 @@ GRAPH
   defn (0.1.0)
   iamdefn (0.1.0)
     defn (>= 0.0.0)
+  meh (0.1.0)
+    iamdefn (>= 0.0.0)
