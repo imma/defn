@@ -26,7 +26,7 @@ end
 require 'fileutils'
 
 def fqname(fname)
-  ::File.join(ENV['HOME'], "#{fname}.txt")
+  ::File.join('/tmp', "#{fname}.txt")
 end
 
 def create_facet
