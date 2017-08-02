@@ -7,6 +7,7 @@ report_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/repor
 exception_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/reports")
 
 chef 12.8 zero has all chef server api except for one thing
+chef 12.14 sensitive resources suppresses secrets output
 chef 12.19 shows which deprecated features are used (13 readiness)
 chef 12 EOL april 2018, when 14 is released
 

@@ -1,5 +1,0 @@
-/clients
-/nodes
-.chef/cache
-.chef/local-mode-cache
-.chef/client.pem
