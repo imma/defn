@@ -2,7 +2,7 @@ use_inline_resources
 
 def load_current_resource
   @current_resource = Chef::Resource::Defn.new(@new_resource.name)
-  @current_resource.exists = ::File.exist?("#{@new_resource.name}.txt")
+  @current_resource.exists = ::File.exist?(fqname(@new_resource.name))
 end
 
 action :create do
@@ -11,8 +11,6 @@ action :create do
       resp = create_facet
       @new_resource.updated_by_last_action(resp)
     end
-  else
-    Chef::Log.error 'Facet already exists, not creating.'
   end
 end
 
@@ -22,8 +20,6 @@ action :delete do
       resp = delete_facet
       @new_resource.updated_by_last_action(resp)
     end
-  else
-    Chef::Log.error "Can't find #{fqname(new_resource.name)}, not deleting"
   end
 end
 
