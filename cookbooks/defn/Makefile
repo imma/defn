@@ -1,9 +1,9 @@
-all: berks style
+all: install style
 
-berks:
-	berks update
+install:
 	berks install
+	berks update
 
 style:
 	foodcritic .
-	rubocop .
+	cookstyle .
