@@ -5,6 +5,13 @@ Mixlib::Log::Formatter.show_time = false
 require 'chef/handler/json_file'
 report_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/reports")
 exception_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/reports")
+client.rb:
+
+Mixlib::Log::Formatter.show_time = false
+
+require 'chef/handler/json_file'
+report_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/reports")
+exception_handlers << Chef::Handler::JsonFile.new(:path => "#{shome}/var/chef/reports")
 
 chef 12.8 zero has all chef server api except for one thing
 chef 12.14 sensitive resources suppresses secrets output
