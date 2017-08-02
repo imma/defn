@@ -11,14 +11,16 @@ style:
 run:
 	chef-client -c .chef/client.rb
 
-kitchen:
-	kitchen destroy || true
-	kitchen setup
-
 test:
 	kitchen test
 
-converge:
+up:
+	kitchen create
+
+down:
+	kitchen destroy
+
+provision:
 	kitchen converge
 
 verify:
