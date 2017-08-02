@@ -16,7 +16,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[defn::default]
+      - recipe[iamdefn::default]
     verifier:
       inspec_tests:
         - test/smoke/default
