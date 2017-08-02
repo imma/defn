@@ -3,6 +3,8 @@
 
 Using: berkshelf, foodcritic, rubocop, chefdk
 
+Thinking about: kitchen
+
 Reading:
 - https://github.com/defn/chef-style-guide
 
