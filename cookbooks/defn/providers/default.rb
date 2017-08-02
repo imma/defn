@@ -6,7 +6,7 @@ def load_current_resource
 end
 
 action :create do
-  if !@current_resource.exists
+  unless @current_resource.exists
     converge_by("Creating #{fqname(new_resource.name)}") do
       resp = create_facet
       @new_resource.updated_by_last_action(resp)
