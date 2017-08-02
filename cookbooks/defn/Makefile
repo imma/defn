@@ -1,4 +1,4 @@
-all: install style
+all: style
 
 install:
 	berks install
@@ -7,3 +7,6 @@ install:
 style:
 	foodcritic .
 	cookstyle .
+
+run:
+	chef-client -c .chef/client.rb
