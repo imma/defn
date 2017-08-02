@@ -12,7 +12,11 @@ verifier:
 
 platforms:
   - name: ubuntu-16.04
+    driver:
+      linked_clone: true
   - name: ubuntu-14.04
+    driver:
+      linked_clone: true
 
 suites:
   - name: default
