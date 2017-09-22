@@ -1,1 +1,1 @@
-Visit http://defn.sh/defn/ or open `docs/index.html`
+content/defn.md
