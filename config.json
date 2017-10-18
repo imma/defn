@@ -1,0 +1,22 @@
+{
+  "params": {
+    "palette": {
+      "primary": "blue",
+      "accent": "teal"
+    },
+    "menu": {
+      "main": [
+        {
+          "name": "home",
+          "url": "/",
+          "weight": 10
+        },
+        {
+          "name": "defn",
+          "url": "/defn",
+          "weight": 100
+        }
+      ]
+    }
+  }
+}
