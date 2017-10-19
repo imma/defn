@@ -12,3 +12,7 @@ https://stepsandleaps.wordpress.com/2017/10/17/feynmans-breakthrough-disregard-o
 
 https://news.ycombinator.com/item?id=15498767
 
+### vim
+
+https://statico.github.io/vim3.html
+
