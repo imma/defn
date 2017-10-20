@@ -19,3 +19,7 @@ https://statico.github.io/vim3.html
 ### config
 
 https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9
+
+### complexity
+
+https://hackernoon.com/do-you-have-the-learners-syndrome-169c8158ec16
