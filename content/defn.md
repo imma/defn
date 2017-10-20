@@ -16,3 +16,6 @@ https://news.ycombinator.com/item?id=15498767
 
 https://statico.github.io/vim3.html
 
+### config
+
+https://blog.buildo.io/the-three-laws-of-config-dynamics-1e9724593aa9
