@@ -12,6 +12,10 @@ https://stepsandleaps.wordpress.com/2017/10/17/feynmans-breakthrough-disregard-o
 
 https://news.ycombinator.com/item?id=15498767
 
+### Cool shit
+
+https://medium.facilelogin.com/short-lived-certificates-netflix-fd5f3ae5bc9
+
 ### vim
 
 https://statico.github.io/vim3.html
